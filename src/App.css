@@ -1,0 +1,113 @@
+body {
+  font-family: sans-serif;
+  background-color: #E1CCEC;
+  padding: 30px;
+  color: #333;
+  background-image: url("./Img/axiom-pattern.png");
+ 
+}
+
+.app {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color:  #F1F1F6;
+  padding: 20px 30px;
+  border-radius: 10px;
+  background-image: url("./Img/worn-dots.png");
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+input {
+  box-sizing: border-box;
+}
+
+button{
+  background-color: #C9B6E4 ;
+  color: black;
+  padding: 5px 10 px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  opacity: .8;
+  transition: .3s;
+}
+
+button:hover{
+  opacity: 1;
+
+}
+
+.todo-form {
+padding-bottom: 1.5rem;
+}
+
+input,select {
+padding: 5px;
+margin-bottom: 10px;
+border: 1px solid  #F1F1F6;
+border-radius: 3px;
+width: 39%;
+margin-right: 22px;
+}
+ 
+.todo-list {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #555;
+
+}
+
+.todo {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-color: #C9B6E4;
+  border-style: solid;
+
+}
+
+.complete {
+  margin: 5px;
+}
+
+.search{
+  border-bottom: 1px solid #555;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+
+}
+
+.filter-options{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #555;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.Asc-button{
+  margin-right: 10px;
+}
+
+.select-filter {
+  width: auto;
+}
+
+.filter-options div{
+  flex: 1 1 0;
+}
